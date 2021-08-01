@@ -56,7 +56,7 @@ export const OurPartner = () => {
                         <div className="col-md-3 col-12 row justify-content-center mr-md-4 ml-md-4">
                             <img className="img-fluid p-5" src="./assets/images/smiley.png" alt="" srcset="" />
                             <br />
-                            <div className="heading text-center p-md-2 mt-md-5">Repea</div>
+                            <div className="heading text-center p-md-2 mt-md-5">Repeat</div>
                         </div>
                     </div>
                 </div>
