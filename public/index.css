@@ -1,0 +1,254 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+}
+.topSpace {
+    padding-top: 145px;
+    padding-bottom: 50px;
+}
+.navbar {
+    background-image: url(./assets/images/navback.png);
+    position: fixed !important;
+    width: -webkit-fill-available;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar img {
+    margin-left: 10px;
+}
+
+.menu {
+    border-bottom: 1px solid #808080;
+    position: fixed !important;
+    width: -webkit-fill-available;
+    top: 72px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #030303;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: #5EE211;
+    text-decoration: none;
+}
+
+#home {
+    padding-top: 145px;
+    margin-bottom: -70px;
+}
+
+#home .desc span {
+    color: #171D22;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#home .download-buttons .button {
+    background-color: #4C4C4C;
+    border-radius: 28px;
+    height: 40px;
+    width: 185px;
+}
+
+#home .download-buttons span {
+    color: white;
+}
+
+.screen {
+    margin: 150px 0;
+}
+
+#partner .screen {
+    padding-top: 50px;
+}
+
+.screen .left-side span {
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#partner {
+    padding: 142px 0 0 0;
+}
+
+#partner .description {
+    font-size: 35px;
+    font-weight: 900;
+    margin: 60px 0 30px 0;
+    font-style: italic;
+}
+
+#partner .star-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#partner .star-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#partner .content {
+    margin: 80px 0 0 0;
+}
+
+#partner .partner {
+    position: relative;
+    height: 610px;
+    border: 1px solid white;
+}
+
+#partner .buttons {
+    border-radius: 5px;
+}
+
+#partner a:hover {
+    text-decoration: none;
+}
+
+#partner .buttons:hover {
+    cursor: pointer;
+}
+
+#partner .join-btn {
+    background-color: #5EE211;
+    color: black;
+}
+
+#partner .contact-btn {
+    background-color: #188DFB;
+    color: white;
+}
+
+.package .p-heading {
+    font-size: 18px;
+}
+
+.package {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #a5ffa447;
+}
+
+.vl {
+    border-left: 1px solid #979797;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social a {
+    margin: 40px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+#footer a {
+    color: black;
+}
+
+#career .text {
+    color: #036AAE;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+#contactus textarea {
+    border: 1px solid black;
+}
+
+#contactus input {
+    border: 1px solid black;
+}
+
+#contactus label {
+    color: #036AAE;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#contactus .submit {
+    background-color: #5EE211;
+    color: black;
+    border-radius: 5px;
+}
+
+.qs .q {
+    color: #036AAE;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .social {
+        margin: 10px 0 0 0;
+    }
+    .navbar {
+        background-image: url(./assets/images/navback.png);
+        position: fixed !important;
+        width: 100%;
+        top: 0;
+        z-index: 10;
+    }
+    
+    .menu {
+        border-bottom: 1px solid #808080;
+        position: fixed !important;
+        width: 100%;
+        top: 72px;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 10;
+        transition: 0.3s;
+    }
+    
+    .social a {
+        margin: 10px;
+    }
+    .vl {
+        display: none;
+    }
+    .screen {
+        height: auto;
+        margin: 10px 0;
+    }
+    #partner .screen {
+        padding-top: 10px
+    }
+    #partner .content {
+        margin: 90px 0 0 0;
+    }
+    #partner .partner {
+        position: relative;
+        height: 610px;
+        border: 1px solid white;
+    }
+    #partner .description {
+        margin: 30px 0 0 0;
+    }
+}
