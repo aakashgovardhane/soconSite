@@ -8,22 +8,22 @@ const Footer = () => {
             <div className="row justify-content-center">
                 <div className="col-md-5 text-center">
                     <div className="p-2" onClick={()=>history.push('/contactUs')}>
-                        <a href="">
+                        <a>
                             Career
                         </a>
                     </div>
                     <div className="p-2" onClick={()=>history.push('/contactUs')}>
-                        <a href="">
+                        <a>
                             Contact us
                         </a>
                     </div>
                     <div className="p-2" onClick={()=>history.push('/t&c')}>
-                        <a href="">
+                        <a>
                             Terms & Conditions
                         </a>
                     </div>
                     <div className="p-2" onClick={()=>history.push('/privacyPolicy')}>
-                        <a href="">
+                        <a>
                             Privacy policy
                         </a>
                     </div>

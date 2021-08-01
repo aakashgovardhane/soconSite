@@ -18,7 +18,7 @@ export const OurPartner = () => {
                         </div>
                         <div
                             className="d-flex flex-column text-center align-items-center justify-content-center p-2 download-buttons">
-                            <a href="">
+                            <a>
                                 <div className="buttons contact-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={()=>history.push('/ContactUs')}>
                                     Contact us
                                 </div>
@@ -79,7 +79,7 @@ export const OurPartner = () => {
                 <div
                     className="d-flex flex-column text-center align-items-center justify-content-center p-2 download-buttons mb-md-4">
 
-                    <a href="">
+                    <a>
                         <div className="buttons join-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={()=>history.push('/ContactUs')}>
                             Join us now
                         </div>

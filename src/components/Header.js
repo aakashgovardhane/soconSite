@@ -5,7 +5,7 @@ export const Header = () => {
     const history = useHistory();
     return <>
         <div className="navbar navbar-fixed-top">
-            <a className="navbar-brand" href="" onClick={()=>history.push('/')}>
+            <a className="navbar-brand" onClick={()=>history.push('/')}>
                 <img className="img-responsive" src="./assets/images/soconlogo.png" width="68" height="62" alt="" loading="lazy" />
             </a>
         </div>
