@@ -9,10 +9,10 @@ export const About = (props) => {
     }, [])
     return <section className="container" id="home" >
         <div className="d-flex flex-column text-center">
-            <div className="mobileApp">
+            <div className="mobileApp mt-md-3">
                 <img src="./assets/images/mobileApp.png" width="230px" alt="" data-aos="zoom-out"
                     data-aos-duration="2000" />
-                <div data-aos="zoom-in" data-aos-duration="2000">
+                <div className="mt-md-2" data-aos="zoom-in" data-aos-duration="2000">
                     <div className="desc p-2">
                         <span>A social food platform made for friends!</span>
                     </div>
@@ -35,8 +35,8 @@ export const About = (props) => {
                     data-aos-duration="2000">
                     <span>Skip the queue for takeaways</span>
                 </div>
-                <div className="right-side col-md-6 col-12" data-aos="fade-left" data-aos-duration="2000">
-                    <img className="img-fluid p-md-0 p-4" src="./assets/images/queue.jpg" alt="" srcset="" />
+                <div className="right-side col-md-7 col-12" data-aos="fade-left" data-aos-duration="2000">
+                    <img className="img-fluid p-md-0 p-3" src="./assets/images/queue.jpg" alt="" srcset="" />
                 </div>
             </div>
         </div>
@@ -46,9 +46,9 @@ export const About = (props) => {
                     data-aos-anchor-placement="bottom-bottom">
                     <span>Get rewarded <br /> and <br /> pass it on</span>
                 </div>
-                <div className="right-side col-md-6 col-12" data-aos="fade-up" data-aos-duration="2000"
+                <div className="right-side col-md-7 col-12" data-aos="fade-up" data-aos-duration="2000"
                     data-aos-anchor-placement="bottom-bottom">
-                    <img className="img-fluid p-md-0 p-4" src="./assets/images/reward.jpg" alt="" srcset="" />
+                    <img className="img-fluid p-md-0 p-3" src="./assets/images/reward.jpg" alt="" srcset="" />
                 </div>
             </div>
         </div>
@@ -58,8 +58,8 @@ export const About = (props) => {
                     data-aos-duration="2000">
                     <span>Spread the love <br /> through food</span>
                 </div>
-                <div className="right-side col-md-6 col-12" data-aos="zoom-in-left" data-aos-duration="2000">
-                    <img className="img-fluid p-md-0 p-4" src="./assets/images/spread.jpg" alt="" srcset="" />
+                <div className="right-side col-md-7 col-12" data-aos="zoom-in-left" data-aos-duration="2000">
+                    <img className="img-fluid p-md-0 p-3" src="./assets/images/spread.jpg" alt="" srcset="" />
                 </div>
             </div>
         </div>

@@ -13,13 +13,13 @@ export const OurPartner = () => {
                     <div className="content text-center">
                         <div className="p-2 heading">Be our Partner</div>
                         <div className="p-2 description">Marketing rocket<br />
-                            <span style={{color: "#5EE211"}}>fuel</span> to your <br />
-                            <span style={{color: "#188DFB"}}>restaurant</span>
+                            <span style={{ color: "#5EE211" }}>fuel</span> to your <br />
+                            <span style={{ color: "#188DFB" }}>restaurant</span>
                         </div>
                         <div
                             className="d-flex flex-column text-center align-items-center justify-content-center p-2 download-buttons">
                             <a>
-                                <div className="buttons contact-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={()=>history.push('/ContactUs')}>
+                                <div className="buttons contact-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={() => history.push('/ContactUs')}>
                                     Contact us
                                 </div>
                             </a>
@@ -44,7 +44,7 @@ export const OurPartner = () => {
                     <div className="p-2 heading text-center mb-md-4">To your loyal customers</div>
                     <div className="row align-items-center justify-content-md-center">
                         <div className="col-md-3 col-12 row justify-content-center mr-md-4 ml-md-4">
-                            <img className="img-fluid ml-4" src="./assets/images/reward2.jpg " alt="" srcset="" />
+                            <img className="img-fluid ml-4 pb-md-5" src="./assets/images/reward1.png " alt="" srcset="" />
                             <br />
                             <div className="heading text-center p-2">reward</div>
                         </div>
@@ -77,10 +77,10 @@ export const OurPartner = () => {
                 </div>
                 <div className="container text-center heading mt-4 mb-4">Be the part of new wave</div>
                 <div
-                    className="d-flex flex-column text-center align-items-center justify-content-center p-2 download-buttons mb-md-4">
+                    className="d-flex flex-column text-center align-items-center justify-content-center p-2 download-buttons mb-md-5">
 
                     <a>
-                        <div className="buttons join-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={()=>history.push('/ContactUs')}>
+                        <div className="buttons join-btn m-2 justify-content-center p-2 pl-4 pr-4" onClick={() => history.push('/ContactUs')}>
                             Join us now
                         </div>
                     </a>

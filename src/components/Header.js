@@ -6,7 +6,7 @@ export const Header = () => {
     return <>
         <div className="navbar navbar-fixed-top">
             <a className="navbar-brand" onClick={()=>history.push('/')}>
-                <img className="img-responsive" src="./assets/images/soconlogo.png" width="68" height="62" alt="" loading="lazy" />
+                <img className="img-responsive" src="./assets/images/soconlogo.png" width="73" height="66" alt="" loading="lazy" />
             </a>
         </div>
         <div className="row menu justify-content-center mt-3 mb-3">

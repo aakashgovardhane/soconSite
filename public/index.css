@@ -33,6 +33,7 @@ a:hover{
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 10;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 .menu:hover {
@@ -78,6 +79,9 @@ a:hover{
 .screen {
     margin: 150px 0;
 }
+.package{
+    margin: 200px 0;
+}
 
 #partner .screen {
     padding-top: 50px;
@@ -120,7 +124,7 @@ a:hover{
 
 #partner .partner {
     position: relative;
-    height: 610px;
+    height: 628px;
     border: 1px solid white;
 }
 
@@ -236,6 +240,10 @@ a:hover{
         display: none;
     }
     .screen {
+        height: auto;
+        margin: 10px 0;
+    }
+    .package{
         height: auto;
         margin: 10px 0;
     }
